@@ -1,0 +1,449 @@
+@font-face {
+    src: url(font/Sequel\ Sans\ Book\ Body.otf);
+    font-family: sequel book;
+}
+
+@font-face {
+    src: url(font/Sequel\ Sans\ Medium\ Body.otf);
+    font-family: sequel_medium;
+}
+
+@font-face {
+    src: url(font/Sequel\ Sans\ Roman\ Body.otf);
+    font-family: sequel_roman;
+}
+
+@font-face {
+    src: url(font/Sequel\ Sans\ Bold\ Body.otf);
+    font-family: sequel_bold;
+}
+
+@font-face {
+    src: url(font/AppleGaramond-Italic.ttf);
+    font-family: appleGaramond;
+}
+
+.autolayout {
+    display: flex;
+    width: auto;
+    padding: 0px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+
+}
+
+p {
+    font-size: 32px;
+    font-family: sequel book;
+    letter-spacing: -1.6px;
+    margin: 0%;
+}
+
+span {
+    font-family: sequel_medium;
+    font-size: 56px;
+    
+}
+
+.frame1{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.gambar1{
+    height: 464px;
+    width: 100%;
+    min-width: 342px;
+    min-height: 283px;
+    flex: 1 0 0;
+    object-fit: cover;
+}
+
+.gambar2{
+    height: 464px;
+    min-width: 342px;
+    min-height: 283px;
+    flex: 1 0 0;
+    object-fit: cover;
+}
+
+.teksAwalan{
+    display: flex;
+    min-width: 342px;
+    flex-direction: column;
+    flex: 1 0 0;
+    font-size: 24px;
+    font-family: sequel_roman;
+    letter-spacing: -1.2px;
+}
+
+.garamond{
+    font-family: appleGaramond;
+    display: flex;
+    min-width: 342px;
+    flex-direction: column;
+    flex: 1 0 0;
+    font-size: 24px;
+}
+
+.kumpulan{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    font-size: 32px;
+    font-family: sequel_medium;
+    line-height: 32px;
+    letter-spacing: -1.6px;
+    text-transform: uppercase;
+}
+
+.imgdesc1{
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.imgcont1{
+    display: flex;
+    min-width: 358px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    background: #000;
+}
+
+.tgl1{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 24px;
+    font-family: sequel_roman;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+.img1{
+    height: 399px;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.desc1{
+    display: flex;
+    min-width: 358px;
+    flex-direction: column;
+    flex: 1 0 0;
+    color: #000;
+    font-size: 24px;
+    font-family: sequel_roman;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+
+.imgdesc2{
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.imgcont2{
+    display: flex;
+    min-width: 358px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    background: #000;
+}
+
+.tgl2{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 24px;
+    font-family: sequel_roman;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+.img2{
+    height: 399px;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.desc2{
+    display: flex;
+    min-width: 358px;
+    flex-direction: column;
+    flex: 1 0 0;
+    color: #000;
+    font-size: 24px;
+    font-family: sequel_roman;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+.imgdesc3{
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.imgcont3{
+    display: flex;
+    min-width: 358px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    background: #000;
+}
+
+.tgl3{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 24px;
+    font-family: sequel_roman;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+.img3{
+    height: 399px;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.desc3{
+    display: flex;
+    min-width: 358px;
+    flex-direction: column;
+    flex: 1 0 0;
+    color: #000;
+    font-size: 24px;
+    font-family: sequel_roman;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+
+.imgdesc4{
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.imgcont4{
+    display: flex;
+    min-width: 358px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    background: #000;
+}
+
+.tgl4{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 24px;
+    font-family: sequel_roman;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+.img4{
+    height: 399px;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.desc4{
+    display: flex;
+    min-width: 358px;
+    flex-direction: column;
+    flex: 1 0 0;
+    color: #000;
+    font-size: 24px;
+    font-family: sequel_roman;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+
+.imgdesc5{
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.imgcont5{
+    display: flex;
+    min-width: 358px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    background: #000;
+}
+
+.tgl5{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 24px;
+    font-family: sequel_roman;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+.img5{
+    height: 399px;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.desc5{
+    display: flex;
+    min-width: 358px;
+    flex-direction: column;
+    flex: 1 0 0;
+    color: #000;
+    font-size: 24px;
+    font-family: sequel_roman;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+.imgdesc6{
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.imgcont6{
+    display: flex;
+    min-width: 358px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    background: #000;
+}
+
+.tgl6{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 24px;
+    font-family: sequel_roman;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+.img6{
+    height: 399px;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.desc6{
+    display: flex;
+    min-width: 358px;
+    flex-direction: column;
+    flex: 1 0 0;
+    color: #000;
+    font-size: 24px;
+    font-family: sequel_roman;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+.imgdesc7{
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.imgcont7{
+    display: flex;
+    min-width: 358px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    background: #000;
+}
+
+.tgl7{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 24px;
+    font-family: sequel_roman;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+.img7{
+    height: 399px;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.desc7{
+    display: flex;
+    min-width: 358px;
+    flex-direction: column;
+    flex: 1 0 0;
+    color: #000;
+    font-size: 24px;
+    font-family: sequel_roman;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
